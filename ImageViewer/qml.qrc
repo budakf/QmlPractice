@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>+android/main.qml</file>
+        <file>+ios/main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>+android/qtquickcontrols2.conf</file>
+        <file>+ios/qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
