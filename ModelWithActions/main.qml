@@ -54,6 +54,7 @@ Window {
             delegate: numberDelegate
             spacing: 5
             focus: true
+            clip: true
         }
 
         Component{
@@ -61,7 +62,7 @@ Window {
             Rectangle{
                 width: listView.width
                 height: 30
-                color: "#157efb"
+                color: ListView.isCurrentItem ? "#15ffff" : "#157efb"
                 Text{
                     id: text
                     text: name
@@ -72,6 +73,7 @@ Window {
                     anchors.fill: parent
                     onClicked: hello(listModel.get(index).name)
                 }
+                Keys.onReturnPressed: hello(listModel.get(index).name)
             }
 
         }
