@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Qt.mp4</file>
+    </qresource>
+</RCC>
